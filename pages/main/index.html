@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=EB+Garamond:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pedro Mariotti's Portifolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="navContainer">
+          <div id="navText">
+            <h4 id="navName">Pedro Mariotti</h4>
+            <ul>
+              <li>
+                <a class="navTextOptions aboutButton">About me</a>
+              </li>
+              <li>
+                <a class="navTextOptions projectsButton">Projects</a>
+              </li>
+            </ul>
+          </div>
+          <div id="navButtons">
+            <!-- Icone conseguido com iconify -->
+            <a href="https://twitter.com/PedroMariotti3">
+              <img
+                src="../../assets/twitter-icon.svg"
+                alt="Twitter icon"
+                class="navPics"
+              />
+            </a>
+            <a href="https://github.com/pedro-mariotti">
+              <img
+                id="gitHubIcon"
+                src="../../assets/github.svg"
+                alt="Github Icon"
+                class="navPics"
+              />
+            </a>
+            <div id="switchDiv">
+              <label for="darkSwitch">Dark mode </label>
+              <div id="center">
+                <input id="darkSwitch" type="checkbox" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="burgerButton">
+          <input id="burgerCheckbox" type="checkbox" />
+          <div id="burgerIcon">
+            <div class="burgerTab" id="burgerTab1"></div>
+            <div class="burgerTab" id="burgerTab2"></div>
+            <div class="burgerTab" id="burgerTab3"></div>
+          </div>
+        </div>
+        <div id="burgerNav">
+          <ul>
+            <li>
+              <a class="navTextOptions aboutButton">About me</a>
+            </li>
+            <li>
+              <a class="navTextOptions projectsButton">Projects</a>
+            </li>
+          </ul>
+          <div id="navButtonsMobile">
+            <a href="https://twitter.com/PedroMariotti3">
+              <img
+                src="../../assets/twitter-icon.svg"
+                alt="Twitter icon"
+                class="navPicsMobile"
+              />
+            </a>
+            <a href="https://github.com/pedro-mariotti">
+              <img
+                id="gitHubIcon"
+                src="../../assets/github.svg"
+                alt="Github Icon"
+                class="navPicsMobile"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <img
+        id="avatar"
+        src="../../assets/myPic.png"
+        alt="Photo of myself smiling"
+      />
+      <section id="hero">
+        <h1>Hello.</h1>
+        <h1>My name is Pedro.</h1>
+      </section>
+      <div class="divider" id="firstDivider"></div>
+      <section id="introSection">
+        <!-- mudar conteudo do p -->
+        <div>
+          <p>
+            I'm a website developer at
+            <a id="textHighlights" href="https://infojr.com.br">InfoJr</a>,
+            Federal University of Bahia's junior IT company, helping create
+            intuitive websites with maximum accessibility and optimization while
+            keeping the code clean and modular utilizing modern technologies and
+            frameworks using <a id="textHighlights"> CSS, JS and ReactJS</a>.
+          </p>
+          <br />
+          <p>
+            I am also a project manager, leading developing teams of developers
+            and giving them directions utilizing the agile development framework
+            <a
+              id="textHighlights"
+              href="https://www.scrum.org/resources/what-is-scrum"
+              >Scrum</a
+            >, while keeping in touch with the project's client to guarantee
+            that the final product meets every expectation the clients had in
+            mind.
+          </p>
+          <br />
+          <p>
+            Most of my work at InfoJr is located at their private GitLab
+            repository, but every personal project I've had is deposited into
+            <a id="textHighlights" href="https://github.com/pedro-mariotti"
+              >GitHub</a
+            >! I am frequently updating it to keep my repository ever growing.
+          </p>
+        </div>
+        <div id="checkmarkDiv">
+          <img src="../../assets/checkPic.svg" alt="Checkmark picture" />
+          <p>
+            Available for work and general developing/managing goodness -
+            <a class="blueText">say hello</a>
+          </p>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="projectSection">
+        <h2>Projects</h2>
+        <p>
+          Here are some of the projects I worked on while at infoJr alongside
+          beautiful and skilled teams
+        </p>
+        <div class="projectDiv">
+          <img src="../../assets/Energy.PNG" alt="Energy Mobi's homepage" />
+          <div class="projectDetailDiv">
+            <h4>Energy Mobi</h4>
+            <p>
+              Project manager, creating issues, setting milestones and helping
+              the team with logistic issues while aligning everything with the
+              client's requests with weekly meetings.
+            </p>
+            <button>Visit</button>
+          </div>
+        </div>
+        <div class="projectDiv">
+          <img src="../../assets/WLD.PNG" alt="We Love Dogs's home page" />
+          <div class="projectDetailDiv">
+            <h4>We Love Dogs</h4>
+            <p>
+              Front end developer of the We Love Dogs's homepage, made as an
+              excercise in HTML and CSS programming languages. Not deployed,
+              only Github link available.
+            </p>
+            <button>Visit</button>
+          </div>
+        </div>
+        <div class="projectDiv">
+          <img
+            src="../../assets/Semcomp2021.PNG"
+            alt="Semcomp 2021's homepage"
+          />
+          <div class="projectDetailDiv">
+            <h4>Semcomp 2021</h4>
+            <p>
+              Project manager, creating issues, setting milestones and helping
+              the team with logistic issues while aligning everything with the
+              event's needs in a short time schedule.
+            </p>
+            <button>Visit</button>
+          </div>
+        </div>
+        <div class="projectDiv">
+          <img src="../../assets/Gamma.PNG" alt="Gamma group's homepage" />
+          <div class="projectDetailDiv">
+            <h4>Gamma</h4>
+            <p>
+              Front end developer, responsible for much of the background
+              elements and some of the main sections of this single-page site
+              using ReactJS.
+            </p>
+            <button>Visit</button>
+          </div>
+        </div>
+        <div class="projectDiv">
+          <img
+            src="../../assets/ReSSA.PNG"
+            alt="Reconhecendo Salvador's homepage"
+          />
+          <div class="projectDetailDiv">
+            <h4>Reconhecendo Salvador</h4>
+            <p>
+              Support front end developer, bugfixing and adjusting dimensions
+              and visual glitches on this website using ReactJS
+            </p>
+            <button>Visit</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
